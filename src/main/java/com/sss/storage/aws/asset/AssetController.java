@@ -1,10 +1,9 @@
-package com.sss.storage.aws.media;
+package com.sss.storage.aws.asset;
 
-import com.sss.storage.aws.media.dto.AssetRecordDto;
-import com.sss.storage.aws.media.dto.UploadAssetRequestDto;
-import com.sss.storage.aws.media.dto.UploadAssetResponseDto;
-import com.sss.storage.aws.media.entity.AssetRecord;
-import com.sss.storage.aws.media.repository.AssetRecordRepository;
+import com.sss.storage.aws.asset.dto.AssetRecordDto;
+import com.sss.storage.aws.asset.dto.UploadAssetResponseDto;
+import com.sss.storage.aws.asset.entity.AssetRecord;
+import com.sss.storage.aws.asset.repository.AssetRecordRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

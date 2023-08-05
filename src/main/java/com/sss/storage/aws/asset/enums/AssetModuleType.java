@@ -1,4 +1,4 @@
-package com.sss.storage.aws.media.enums;
+package com.sss.storage.aws.asset.enums;
 
 public enum AssetModuleType {
 

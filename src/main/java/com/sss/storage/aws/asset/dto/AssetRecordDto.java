@@ -1,4 +1,4 @@
-package com.sss.storage.aws.media.dto;
+package com.sss.storage.aws.asset.dto;
 
 import lombok.Builder;
 

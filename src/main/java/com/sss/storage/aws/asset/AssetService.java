@@ -1,21 +1,18 @@
-package com.sss.storage.aws.media;
+package com.sss.storage.aws.asset;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.*;
 
-import com.sss.storage.aws.media.dto.UploadAssetRequestDto;
-import com.sss.storage.aws.media.dto.UploadAssetResponseDto;
-import com.sss.storage.aws.media.entity.AssetRecord;
-import com.sss.storage.aws.media.enums.AssetModuleType;
-import com.sss.storage.aws.media.repository.AssetRecordRepository;
+import com.sss.storage.aws.asset.dto.UploadAssetResponseDto;
+import com.sss.storage.aws.asset.entity.AssetRecord;
+import com.sss.storage.aws.asset.enums.AssetModuleType;
+import com.sss.storage.aws.asset.repository.AssetRecordRepository;
 import lombok.RequiredArgsConstructor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.io.*;
 import java.util.UUID;

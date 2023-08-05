@@ -1,6 +1,6 @@
-package com.sss.storage.aws.media.entity;
+package com.sss.storage.aws.asset.entity;
 
-import com.sss.storage.aws.media.enums.AssetModuleType;
+import com.sss.storage.aws.asset.enums.AssetModuleType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
